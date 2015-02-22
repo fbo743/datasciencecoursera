@@ -1,6 +1,6 @@
-# Run Analsyis Script Help
+## Run Analsyis Script Help
 
-##1. Reference data
+###1. Reference data
 
 1. Activities
   * Definition of all activities performed by a subject.
@@ -10,18 +10,16 @@
   * Definition of all features measured for activities performed by a subject.
     * see file: ./features.txt
 
-##2. Result Data
+###2. Result Data
 
 * [1] subject_id
   *  Value domain: 1..30 (number of subjects involved in both train and test phases).
 
 * [2] activity
-  * Value domain: Activity reference data.
+  * Value domain: defined Activity reference data.
   
 * [3:68] average of mean and standard feature measures
-  * Name values: defined by feature reference data, but limited to names containing "mean(" and "std(".
-  * Measure values: range between -1.0 and 1.0
-   
+  * Name values: defined by Features reference data, but limited to names containing "mean(" and "std(".
     * [3] "tBodyAcc-mean()-X"          
     * [4] "tBodyAcc-mean()-Y"          
     * [5] "tBodyAcc-mean()-Z"          
@@ -88,8 +86,9 @@
     * [66] "fBodyBodyAccJerkMag-std()"  
     * [67] "fBodyBodyGyroMag-std()"     
     * [68] "fBodyBodyGyroJerkMag-std()" 
+  * Measure values: range between -1.0 and 1.0
 
-##3. Script description
+###3. Script description
 
 The activities performed by the run_analysis.R script are the following:
 
@@ -108,7 +107,7 @@ The activities performed by the run_analysis.R script are the following:
 2. Extracts only the measurements on the mean and standard deviation for each measurement
 3. Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 4. Write tidy data into text file 
-      output file:  ./result-data-set.txt
+     * output file:  ./result-data-set.txt
 
 Notes: 
 * the activites 3. "Uses descriptive activity names to name the activities in the data set" 
