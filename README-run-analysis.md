@@ -1,6 +1,6 @@
-## Run Analsyis Script Help
+# Run Analsyis Script Help
 
-#1. Reference data
+##1. Reference data
 
 a) Activities
   Definition of all activities performed by a subject.
@@ -11,7 +11,7 @@ b) Features
   see file: ./features.txt
 
 
-#2. Result Data
+##2. Result Data
 
 [1] subject_id
     Value domain: 1..30 (number of subjects involved in both train and test phases).
@@ -89,18 +89,18 @@ b) Features
   [67] "fBodyBodyGyroMag-std()"     
   [68] "fBodyBodyGyroJerkMag-std()" 
 
-#3. Script description
+##3. Script description
 
 The activities performed by the run_analysis.R script are the following:
-0. Setup phase
-      input files:  ./features.txt
-                    ./activity_labels.txt
-                    ./train/X_train.txt"
-                    ./train/y_train.txt"
-                    ./train/subject_train.txt
-                    ./test/X_test.txt
-                    ./test/y_test.txt
-                    ./test/subject_test.txt
+* 0. Setup phase
+**      input files:  ./features.txt
+**                    ./activity_labels.txt
+**                    ./train/X_train.txt"
+**                    ./train/y_train.txt"
+**                    ./train/subject_train.txt
+**                    ./test/X_test.txt
+**                    ./test/y_test.txt
+**                    ./test/subject_test.txt
 
 1. Merges the training and the test sets to create one data set
 2. Extracts only the measurements on the mean and standard deviation for each measurement
