@@ -93,14 +93,15 @@ b) Features
 
 The activities performed by the run_analysis.R script are the following:
 * 0. Setup phase
-**      input files:  ./features.txt
-**                    ./activity_labels.txt
-**                    ./train/X_train.txt"
-**                    ./train/y_train.txt"
-**                    ./train/subject_train.txt
-**                    ./test/X_test.txt
-**                    ./test/y_test.txt
-**                    ./test/subject_test.txt
+  * input files:
+    * ./features.txt
+    *                    ./activity_labels.txt
+    *                    ./train/X_train.txt"
+    *                    ./train/y_train.txt"
+    *                    ./train/subject_train.txt
+    *                    ./test/X_test.txt
+    *                    ./test/y_test.txt
+    *                    ./test/subject_test.txt
 
 1. Merges the training and the test sets to create one data set
 2. Extracts only the measurements on the mean and standard deviation for each measurement
